@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A378243525EE487600BBCCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A378243425EE487600BBCCFE /* AppDelegate.swift */; };
 		A378243725EE487600BBCCFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A378243625EE487600BBCCFE /* SceneDelegate.swift */; };
-		A378243925EE487600BBCCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A378243825EE487600BBCCFE /* ViewController.swift */; };
+		A378243925EE487600BBCCFE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A378243825EE487600BBCCFE /* LoginViewController.swift */; };
 		A378243C25EE487600BBCCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A378243A25EE487600BBCCFE /* Main.storyboard */; };
 		A378243E25EE487700BBCCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A378243D25EE487700BBCCFE /* Assets.xcassets */; };
 		A378244125EE487700BBCCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A378243F25EE487700BBCCFE /* LaunchScreen.storyboard */; };
+		A3BB361525EE812400C66DBA /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BB361425EE812400C66DBA /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A378243125EE487600BBCCFE /* VKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A378243425EE487600BBCCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A378243625EE487600BBCCFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A378243825EE487600BBCCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A378243825EE487600BBCCFE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A378243B25EE487600BBCCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A378243D25EE487700BBCCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A378244025EE487700BBCCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A378244225EE487700BBCCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BB361425EE812400C66DBA /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				A378243425EE487600BBCCFE /* AppDelegate.swift */,
 				A378243625EE487600BBCCFE /* SceneDelegate.swift */,
-				A378243825EE487600BBCCFE /* ViewController.swift */,
+				A378243825EE487600BBCCFE /* LoginViewController.swift */,
+				A3BB361425EE812400C66DBA /* NextViewController.swift */,
 				A378243A25EE487600BBCCFE /* Main.storyboard */,
 				A378243D25EE487700BBCCFE /* Assets.xcassets */,
 				A378243F25EE487700BBCCFE /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A378243925EE487600BBCCFE /* ViewController.swift in Sources */,
+				A378243925EE487600BBCCFE /* LoginViewController.swift in Sources */,
+				A3BB361525EE812400C66DBA /* NextViewController.swift in Sources */,
 				A378243525EE487600BBCCFE /* AppDelegate.swift in Sources */,
 				A378243725EE487600BBCCFE /* SceneDelegate.swift in Sources */,
 			);
